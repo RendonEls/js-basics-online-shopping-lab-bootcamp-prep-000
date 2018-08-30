@@ -43,7 +43,8 @@ function viewCart() {
     myString += `${cartStringsArray}.`
   }
   else if (cart.length === 2) {
-    myString += (cartStringsArray[0] + ", and " + cartStringsArray[1] + ".")
+    //myString += (cartStringsArray[0] + ", and " + cartStringsArray[1] + ".")
+    myString += `${cartStringsArray[0]}, and ${cartStringsArray[1]}.`
   }
   else{
     var lastItem = cartStringsArray.pop()
