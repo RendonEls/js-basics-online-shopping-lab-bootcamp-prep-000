@@ -55,8 +55,7 @@ function viewCart() {
     }
      return myString
  
-  
- 
+
 }
 
 function total() {
