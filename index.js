@@ -40,6 +40,7 @@ function viewCart() {
   var myString = "In your cart, you have "
   if(cart.length === 1) {
     myString += cartStringsArray[0] + "."
+    myString += `${cartStringsArray[0]}.`
   }
   else if (cart.length === 2) {
     myString += (cartStringsArray[0] + ", and " + cartStringsArray[1] + ".")
