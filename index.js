@@ -59,6 +59,9 @@ function viewCart() {
 }
 
 function total() {
+  for (var i=0; i < cart; i++){
+    
+  }
   // write your code here
 }
 
