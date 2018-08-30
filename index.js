@@ -49,7 +49,8 @@ function viewCart() {
   else{
     var lastItem = cartStringsArray.pop()
     var middleItems = cartStringsArray.join(", ")
-    myString += middleItems + ", and " + lastItem + "."
+    //myString += middleItems + ", and " + lastItem + "."
+    myString += `${middleItems}, and ${lastItem}.`
    
     }
      return myString
