@@ -65,7 +65,11 @@ cartTotal += cart[i].itemPrice
 }
 
 function removeFromCart(item) {
-  for (var i = 0; i < )
+  for (var i = 0; i < cart.length; i++){
+    if (cart[i].itemName == item){
+      
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
