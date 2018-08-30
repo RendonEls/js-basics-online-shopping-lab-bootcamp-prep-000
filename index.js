@@ -63,6 +63,8 @@ function total() {
   for (var i=0; i < cart; i++){
 cartTotal += cart[i].itemPrice
   }
+  return cartTotal
+  
   // write your code here
 }
 
