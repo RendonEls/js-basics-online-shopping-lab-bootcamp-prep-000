@@ -22,7 +22,6 @@ function addToCart(itemName) {
  
 }
 
-
 // Math.floor() function returns the largest integer less than or equal to a given number down to the nearest, lesser, whole number.
 // Math.Random() function returns a random integer between 0-1
 // add +1 so it can never be 0
